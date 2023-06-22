@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html xmlns="https://www.w3.org/1999/xhtml/"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="GenerateCaptcha()">
+  
+      <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="#!">My Car ^-^</a>
+          </div>
+          <nav>
+            
+            <ul class="nav-list">
+              <li>
+                <a href="home.html">Home</a>
+              </li>
+              <li>
+                <a href="aboutus.html">About</a>
+              </li>
+             
+              <li>
+                <a href="#!">Cars</a>
+              </li>
+            
+              
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <table rules=" all"  align="center" class="table-car" >
+        <caption ><h1>Cars for Rent</h1> </caption>
+    <tr>
+    <th ><h4><B>Type of car</B> </h4></th>
+    <th ><h4><B>Production Date</B></h4></h4></th>
+    <th > <h4><B>Rent Type</B></h4></th>
+    <th ><h4><b> Rent value</b></h4></th>
+    <th ><h4><B>Image</B></h4> </th>
+    </tr>
+    
+    <tr>
+    <td > kia</td>
+    <td >2015 </td>
+    <td >daily only</td>
+    <td >250000</td> 
+    <td ><img src="image/kia.jpg" onclick="showdetails('#kcerato')"></td>
+    </tr>
+    <tr>
+        <div class="hidden" id="kcerato"><h3>vehicle data</h3><br>
+            <b>brand: </b> Kia<br>
+            <b>Model: </b>Cerato<br>
+            <b>manufacture: </b>korea<br>
+           <b> Motion vector :</b>Automatic<br>
+            <b> color: </b>red <br>
+            <b> fuel: </b>petrol <br>
+            <img src="image/kia c1.jpg" > 
+            <img src="image/kia c2.jpg">
+            <br>
+         <em>final account</em>  
+        <ul>
+        <li> daily rent = 245000 S.P</li>
+        <li> Reconstruction = 2000 s.p</li>
+        <li> taxes = 8000 s.p</li>
+        </ul>
+        <button onclick="showdetails('#kcerato')">cancel</button>
+        <form action="page">
+            <input type="checkbox" name="ch" value="follow up" onchange="ShowForm(); showdetails('#kcerato')">
+            follow UP
+        
+        </form>
+        </div>
+    </tr>    
+    
+     
+    
+    
+    <tr>
+    <td >Hyundai</td>
+    <td>2013</td>
+    <td>monthly only</td>
+    <td>6000000</td>
+    <td >
+       <img src="image/hyundai.jpg " onclick="showdetails('#hsonata')" >   </td> </tr>
+    
+        <TR> <div class="hidden" id="hsonata"><h3>vehicle data</h3><br>
+            <b> brand: </b> Hyundai<br>
+            <b>Model: </b>Sonata<br>
+            <b>manufacture: </b>South Korea<br>
+           <b> Motion vector: </b>Automatic<br>
+            <b> color: </b>gray<br>
+            <b> fuel: </b>petrol <br>
+            <img src="image/hyundai s1.jpg">
+            <img src="image/hyundai s2.jpg"> 
+            
+        <br><em>final account</em>    <ul>
+        <li> daily rent = 5900000S.P</li>
+        <li> Reconstruction = 2000 s.p</li>
+        <li> taxes = 8000 s.p</li>
+        </ul>
+        <button onclick="showdetails('#hsonata')">cancel</button>
+        <form action="page">
+            <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#hsonata')">
+            follow UP
+        
+        </form>
+    </div>
+        
+        </TR>
+        
+      <tr>
+    <td> JEEP </td>
+    <td> 2015</td>
+    <td> daily only</td>
+    <td> 250000</td> 
+    <td >     
+    <img src="image/JEEP.jpg"  onclick="showdetails('#jgcherokee')">
+         
+    </td>
+    
+    </tr>
+    <TR> <div class="hidden" id="jgcherokee"><h3>vehicle data</h3><br>
+        <b> brand: </b>jeep <br>
+        <b>Model: </b>Grand cherokee<br>
+        <b>manufacture: </b>U.S.A.<br>
+       <b> Motion vector: </b>Automatic<br>
+        <b> color: </b>black <br>
+        <b> fuel: </b>petrol <br>
+        <img src="image/jeep ch1.png"> 
+        <img src="image/jeep ch 2.jpg">
+    <br>
+        
+       <em>final account</em>
+    <ul>
+    <li> daily rent = 240000 S.P</li>
+    <li> Reconstruction = 2000 s.p</li>
+    <li> taxes = 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#jgcherokee')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#jgcherokee')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    
+    <tr>
+    <td>PROTON </td>
+    <td>2010</td>
+    <td>daily only </td>
+    <td>160000</td>
+       <td> <img src="image/proton 1.jpg" onclick="showdetails('#ps16')" ></td></tr>
+    
+       <TR> <div class="hidden" id="ps16"><h3>vehicle data</h3><br>
+        <b> brand: </b>PROTON <br>
+        <b>Model: </b>s 16<br>
+        <b>manufacture: </b>Malaysia<br>
+       <b> Motion vector: </b>Automatic<br>
+        <b> color: </b>red <br>
+        <b> fuel: </b>petrol <br>
+        <img src="image/proton s1.jpg"> 
+        <img src="image/proton s2.jpg">
+    <br>    
+    <em>final account</em>
+    <ul>
+    <li> daily rent = 150000 S.P</li>
+    <li> Reconstruction = 2000 s.p</li>
+    <li> taxes = 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#ps16')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#ps16')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    
+    
+    
+    <tr>
+    <td>Suzuki</td>
+    <td> 2019</td>
+    <td> monthly only</td>
+    <td> 4500000</td>
+    <td><img src="image/suzuki 2019.jpg"  onclick="showdetails('#salto')"></td>
+    </tr>
+    <TR> <div class="hidden" id="salto"><h3>vehicle data</h3><br>
+        <b> brand:</b> Suzuki<br>
+        <b>Model: </b>alto<br>
+        <b>manufacture</b>Japan<br>
+       <b> Motion vector:</b>Automatic<br>
+        <b> color:</b>white<br>
+        <b> fuel:</b>petrol <br>
+        <img src="image/suzuki al1.png"><img src="image/suzuki al2.jpg"> 
+        <br>
+       <em>final account</em>
+    <ul>
+    <li> daily rent=4490000 S.P</li>
+    <li> Reconstruction =2000 s.p</li>
+    <li> taxes= 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#salto')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#salto')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    
+    
+    <tr>
+        <td>PEUGEOT 308</td>
+        <td> 2009</td>
+        <td>monthly only</td>
+        <td> 4500000</td>
+        <td > <img src="image/pegeot.jpg" onclick="showdetails('#p308')"></td>
+    </tr> 
+    <TR> <div class="hidden" id="p308"><h3>vehicle data</h3><br>
+        <b> brand: </b> PEUGEOT<br>
+        <b>Model: </b>308<br>
+        <b>manufacture: </b>France<br>
+       <b> Motion vector: </b>Automatic<br>
+        <b> color: </b>green<br>
+        <b> fuel: </b>petrol <br>
+        <img src="image/pegeot. 1.png">
+        <img src="image/pegeot 2.png" >
+        <br>
+       <em>final account</em>
+    <ul>
+    <li> daily rent = 4590000 S.P</li>
+    <li> Reconstruction = 2000 s.p</li>
+    <li> taxes = 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#p308')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#p308')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    
+    
+    <tr>
+    <td>DAEWOO CIELO</td>
+    <td>2001</td> 
+    <td>daily only</td>
+    <td>150000</td>
+    <td > <img src="image/DAEWOO CIELO.jpg" onclick="showdetails('#dcielo')"></td>
+    </tr>
+    <TR> <div class="hidden" id="dcielo"><h3>vehicle data</h3><br>
+        <b> brand: </b>DAEWOO  <br>
+        <b>Model: </b>CIELO<br>
+        <b>manufacture: </b>China<br>
+       <b> Motion vector: </b>Automatic<br>
+        <b> color: </b>grey <br>
+        <b> fuel: </b>petrol <br>
+        <img src="image/daewoo 1.jpg"> 
+        <img src="image/daewoo 2.jpg">
+        <br>
+    <em>final account</em>
+    <ul>
+    <li> daily rent = 140000 S.P</li>
+    <li> Reconstruction = 2000 s.p</li>
+    <li> taxes = 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#dcielo')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#dcielo')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    
+    
+    <tr>
+    <td> SKODA</td>
+    <td>2010</td>
+    <td>daily only</td>
+     <td>170000</td>
+    <td ><img src="image/skoda 2010.jpg" onclick="showdetails('#soctavia')"></td></tr>
+    <TR> <div class="hidden" id="soctavia"><h3>vehicle data</h3><br>
+        <b> brand: </b> skoda<br>
+        <b>Model: </b>octavia<br>
+        <b>manufacture: </b>Czech<br>
+       <b> Motion vector: </b>Automatic<br>
+        <b> color: </b>black <br>
+        <b> fuel: </b>petrol <br>
+        <img src="image/Skoda 1.jpg">
+        <img src="image/Skoda 2.jpg"> 
+        <br>
+       <em>final account</em>
+    <ul>
+    <li> daily rent = 160000S.P</li>
+    <li> Reconstruction = 2000 s.p</li>
+    <li> taxes = 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#soctavia')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#soctavia')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    <tr>
+    <td>MITSUBISHI</td>
+    <td>2000</td>
+    <td>daily only </td>
+    <td>150000 </td>
+    <td > <img src="image/MITSUBISHI.jpg" onclick="showdetails('#mlancer')"> </td></tr>
+    <TR> <div class="hidden" id="mlancer"><h3>vehicle data</h3><br>
+        <b> brand: </b>MITSUBISHI<br>
+        <b>Model: </b>lancer<br>
+        <b>manufacture: </b>Japan<br>
+       <b> Motion vector: </b>Automatic<br>
+        <b> color: </b>grey<br>
+        <b> fuel: </b>petrol <br>
+        <img src="image/MITSUBISHI 1.png"> 
+        <img src="image/MITSUBISHI 2.png">
+    <br>
+        <em> final account</em>
+    <ul>
+    <li> daily rent = 140000S.P</li>
+    <li> Reconstruction = 2000 s.p</li>
+    <li> taxes = 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#mlancer')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#mlancer')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    
+    
+    
+    <tr>
+    <td>TOYOTA</td>
+    <td>2000</td>
+    <td>daily only</td>
+    <td> 170000</td>
+    <td ><img src="image/TOYOTA 2000.jpg" onclick="showdetails('#tcorolla')"></td>
+     </tr>
+     <TR> <div  class="hidden" id="tcorolla"><h3>vehicle data</h3><br>
+        <b> brand: </b> Toyota<br>
+        <b>Model: </b>Corolla<br>
+        <b>manufacture: </b>Japan<br>
+       <b> Motion vector: </b>Automatic<br>
+        <b> color: </b>grey<br>
+        <b> fuel: </b>petrol <br>
+        <img src="image/toyota 1.jpg">
+        <img src="image/toyota 2.png"> 
+        <br>
+      <em>final account</em>
+    <ul>
+    <li> daily rent = 160000 S.P</li>
+    <li> Reconstruction = 2000 s.p</li>
+    <li> taxes = 8000 s.p</li>
+    </ul>
+    <button onclick="showdetails('#tcorolla')">cancel</button>
+    <form action="page">
+        <input type="checkbox" name="ch" value="follow up" onchange="ShowForm();showdetails('#tcorolla')">
+        follow UP
+    
+    </form>
+    </div>
+    
+    </TR>
+    <script src="myFunctions.js"></script>
+    </table>
+    
+    <section class="section-rental" >
+      <div class="row" id="show1" hidden> 
+          <div class="login-box">
+              <h2>Request Loan</h2>
+              <form  name="myform" onsubmit="return validateForm();" method="post">
+                  <div class="full-name">
+                      <div class="user-box-inline">
+                          <input type="text" name="first_name"required  onkeydown="return /[a-z]/i.test(event.key)">
+                          <label class="first_name">First Name</label>
+                      </div>
+                      <div class="user-box-inline">
+                          <input type="text" name="middle_name" required onkeydown="return /[a-z]/i.test(event.key)">
+                          <label class="middle_name">Middle Name</label>
+                      </div>
+                      <div class="user-box-inline">
+                          <input type="text" name="last_name" required onkeydown="return /[a-z]/i.test(event.key)">
+                          <label class="last_name">Last Name</label>
+                      </div>
+                  </div>
+                  <div class="user-box">
+                       <input type="text" maxlength="11" name="ID_number" required>
+                      <label>the ID number</label>
+                  </div>
+                  <div class="user-box">
+                      <input type="date" name="date" data-date-inline-picker="true" required />
+                  
+                  </div>
+                  <div class="user-box">
+                      <input maxlength="10" type="tel" name="phone"  required >
+                     <label>Phone</label>
+                  </div>
+                  <div class="user-box">
+                      <input type="email" name="email" required>
+                     <label>E-Mail</label>
+                  </div>
+                  <div class="rent_option">
+                      <div class="user-box-inline">
+
+                          <select id="rent_type" onchange="Rent_Type()">
+                              <option >Option</option>
+                              <option value="Day">Day</option>
+                              <option value="Week">Week</option>
+                              <option value="Year">Year</option>
+                          </select>
+                      </div>
+                      <div class="user-box-inline" id="day" style="margin-left:20px ;" hidden>
+                          <input type="number" name="day">
+                          <label >Enter Count Of Days</label>
+                      </div>
+                      <div class="user-box-inline" id="week" style="margin-left:20px ;" hidden>
+                          <input type="number" name="week">
+                          <label >Enter Count Of Week </label>
+                      </div>
+                      <div class="user-box-inline" id="year" style="margin-left:20px ;" hidden>
+                          <input type="number" name="year">
+                          <label >Enter Count Of Years</label>
+                      </div>
+                  </div>
+                  <div class="user-box">
+                      <label for="">Enter the Captcha Text: 
+
+                      </label><br><br>
+                      <input type="text" id="txtCompare" />  
+                      <input type="text" id="txtCaptcha" style="text-align: center; border: none; font-weight: bold; font-size: 20px; font-family: Modern" />  
+                  </div>     
+
+                  <a>     
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <input type="submit" value="Submit" style="z-index:9999;">
+                  </a>
+              </form>
+            </div>
+      </div>
+  </section>
+
+ <script src="myFunctions.js"></script>
+  <script>
+      
+      function Rent_Type(){
+              const select =document.getElementById("rent_type");
+              const day =document.getElementById("day");
+              const week =document.getElementById("week");
+              const year =document.getElementById("year");
+              if(select.value === "Day"){
+                  day.removeAttribute('hidden');
+                  week.setAttribute('hidden',"Hidden");
+                  year.setAttribute('hidden',"Hidden");
+              }
+              if(select.value == "Week"){
+                  week.removeAttribute('hidden');
+                  day.setAttribute('hidden',"Hidden");
+                  year.setAttribute('hidden',"Hidden");
+              }
+              if(select.value == "Year"){
+                  year.removeAttribute('hidden');
+
+                  week.setAttribute('hidden',"Hidden");
+                  day.setAttribute('hidden',"Hidden");
+              }
+      }
+  </script>
+      </body>

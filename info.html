@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html xmlns="https://www.w3.org/1999/xhtml/"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="GenerateCaptcha()">
+  
+      <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="#!">My Car ^-^</a>
+          </div>
+          <nav>
+            
+            <ul class="nav-list">
+              <li>
+                <a href="home.html">Home</a>
+              </li>
+              <li>
+                <a href="aboutus.html">About</a>
+              </li>
+             
+              <li>
+                <a href="#!">Cars</a>
+              </li>
+            
+              
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <script>
+		function showFormData() {
+			// Get form data
+			var name = document.getElementById("name").value;
+			var email = document.getElementById("email").value;
+			var message = document.getElementById("message").value;
+
+			// Display form data
+			var output = "Name: " + name + "<br>";
+			output += "Email: " + email + "<br>";
+			output += "Message: " + message + "<br>";
+			document.getElementById("output").innerHTML = output;
+		}
+	</script>
